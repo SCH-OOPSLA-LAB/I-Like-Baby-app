@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8295"
+    android:padding="24dp">
+
+    <!-- 상단 이미지 -->
+    <ImageView
+        android:id="@+id/start_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/startpage_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="아이와 함께하는 이미지" />
+
+    <!-- 제목 텍스트 -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이좋아와\n함께해 주셔서 감사해요!"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/start_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- 설명 텍스트 -->
+    <TextView
+        android:id="@+id/subtitle_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이의 안전을 지키는 든든한 지원군이 되어드릴게요.\n안심하고 아이의 하루를 지켜보세요."
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_below="@id/title_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- 시작하기 버튼 -->
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="시작하기"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FF8295"
+        android:textSize="16sp"
+        android:layout_below="@id/subtitle_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="10dp" />
+
+</RelativeLayout>
