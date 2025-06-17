@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8295"
+    android:padding="24dp">
+
+    <!-- 접속 아이디 입력 -->
+    <EditText
+        android:id="@+id/editText_connectionId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="접속 아이디 입력"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true" />
+
+    <!-- 접속 비밀번호 입력 -->
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="접속 비밀번호 입력"
+        android:inputType="textPassword"
+        android:layout_below="@id/editText_connectionId"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black" />
+
+    <!-- 연결 버튼 -->
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_password"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FF8295"
+        android:text="연결" />
+</RelativeLayout>

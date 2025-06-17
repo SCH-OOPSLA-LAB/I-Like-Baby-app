@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A7B9"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="50dp">
+
+    <!-- 상단 이미지 -->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img"/>
+
+    <!-- 환영 문구 -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="'아이조아'와 함께해 주셔서 감사해요!"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- 설명 문구 -->
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="아이의 안전을 지키는 든든한 지원군이 되어드릴게요.\n안심하고 아이의 하루를 지켜보세요."
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <!-- 시작 버튼 -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="시작하기"
+        android:textStyle="bold"
+        android:textColor="#F4A7B9"
+        android:textSize="18sp"/>
+</LinearLayout>
